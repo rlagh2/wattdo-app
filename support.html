@@ -290,7 +290,6 @@
         }
 
         .bolt-badge.widget { background: rgba(240, 165, 0, 0.15); color: var(--accent-gold); }
-        .bolt-badge.health { background: rgba(46, 204, 113, 0.15); color: var(--accent-green); }
         .bolt-badge.general { background: rgba(139, 148, 158, 0.15); color: var(--text-muted); }
 
         /* Footer */
@@ -367,7 +366,7 @@
         <div class="contact-card">
             <div class="contact-method">
                 <div class="label">Email</div>
-                <a href="andygoinc@gmail.com">andygoinc@gmail.com</a>
+                <a href="mailto:andygoinc@gmail.com">andygoinc@gmail.com</a>
             </div>
             <div class="contact-method">
                 <div class="label">Response Time</div>
@@ -416,13 +415,6 @@
             </div>
 
             <div class="faq-item">
-                <button class="faq-question">Does Wattdo access my health data?</button>
-                <div class="faq-answer">
-                    <p>Only if you choose. Wattdo can optionally read sleep and HRV data from Apple Health to suggest an energy level. This data is processed entirely on your device and is never sent anywhere. You can enable or disable this at any time in your device's Health settings.</p>
-                </div>
-            </div>
-
-            <div class="faq-item">
                 <button class="faq-question">What is the "Push to Monday" feature?</button>
                 <div class="faq-answer">
                     <p>If you've been in Low Energy mode for two or more consecutive days, Wattdo will gently ask if you'd like to push all heavy tasks (two- and three-bolt) to the following Monday. It's not automatic — you always choose. Sometimes rest is the most productive thing you can do.</p>
@@ -458,12 +450,6 @@
                 <span class="bolt-badge widget">WIDGET</span>
                 <h3>Widget energy level doesn't match the app</h3>
                 <p>Open the Wattdo app briefly — this triggers a sync between the app and widget. The widget reads from a shared data container that updates when either the app or widget changes the energy level.</p>
-            </div>
-
-            <div class="troubleshoot-card">
-                <span class="bolt-badge health">HEALTHKIT</span>
-                <h3>Sleep or HRV data not showing</h3>
-                <p>Make sure you've granted Wattdo permission to read Health data. Go to Settings → Privacy & Security → Health → Wattdo and enable Sleep Analysis and Heart Rate Variability. Data must be recorded within the last 24 hours to appear.</p>
             </div>
 
             <div class="troubleshoot-card">
